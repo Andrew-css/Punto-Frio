@@ -91,18 +91,18 @@ import { ref, computed } from 'vue'
 let isCartVisible = ref(false);
 
 let producto = ref([
-  { id: 1, nombre: "Águila Normal", cantidad: "1LT", unidad: "1x13", precio: 56000, url: './src/img/AguilaLitro.jpg', cantidadEnCarrito: 1 },
-  { id: 2, nombre: "Aguila Light", cantidad: "1LT", unidad: "1x13", precio: 60000, url: './src/img/LightLitro.jpg', cantidadEnCarrito: 1 },
-  { id: 3, nombre: "Aguila Normal", cantidad: "330ml", unidad: "1x30", precio: 58000, url: './src/img/AguilaPersonal.jpg', cantidadEnCarrito: 1 },
-  { id: 4, nombre: "Póker", cantidad: "1LT", unidad: "1x13", precio: 54000, url: './src/img/PokerLitro.jpg', cantidadEnCarrito: 1 },
-  { id: 5, nombre: "Póker", cantidad: "330ml", unidad: "1x30", precio: 58000, url: './src/img/PokerPersonal.jpg', cantidadEnCarrito: 1 },
-  { id: 6, nombre: "SixPack Coronita", cantidad: "210ml", unidad: "1x6", precio: 16000, url: './src/img/Coronita.jpg', cantidadEnCarrito: 1 },
-  { id: 7, nombre: "Club Colombia Dorada", cantidad: "330ml", unidad: "1x30", precio: 60000, url: './src/img/ClubPersonal.jpg', cantidadEnCarrito: 1 },
-  { id: 8, nombre: "Postobon Vdrio", cantidad: "1LT", unidad: "1x12", precio: 24000, url: './src/img/GaseosaPostobonLitro.jpg', cantidadEnCarrito: 1 },
-  { id: 9, nombre: "Postobon Personal Vdrio", cantidad: "350ml", unidad: "1x30", precio: 25000, url: './src/img/GaseosaPersonal.jpg', cantidadEnCarrito: 1 },
-  { id: 10, nombre: "Coca Cola Vdrio", cantidad: "1LT", unidad: "1x12", precio: 30000, url: './src/img/CocaColaLitro.jpg', cantidadEnCarrito: 1 },
-  { id: 11, nombre: "Coca Cola Vdrio", cantidad: "350ml", unidad: "1x30", precio: 50000, url: './src/img/CocaCola250.jpg', cantidadEnCarrito: 1 },
-  { id: 12, nombre: "Speed Max Lta", cantidad: "269ml", unidad: "1x32", precio: 42000, url: './src/img/speed.jpg', cantidadEnCarrito: 1 },
+  { id: 1, nombre: "Águila Normal", cantidad: "1LT", unidad: "1x13", precio: 56000, url: './src/assets/AguilaLitro.jpg', cantidadEnCarrito: 1 },
+  { id: 2, nombre: "Aguila Light", cantidad: "1LT", unidad: "1x13", precio: 60000, url: './src/assets/LightLitro.jpg', cantidadEnCarrito: 1 },
+  { id: 3, nombre: "Aguila Normal", cantidad: "330ml", unidad: "1x30", precio: 58000, url: './src/assets/AguilaPersonal.jpg', cantidadEnCarrito: 1 },
+  { id: 4, nombre: "Póker", cantidad: "1LT", unidad: "1x13", precio: 54000, url: './src/assets/PokerLitro.jpg', cantidadEnCarrito: 1 },
+  { id: 5, nombre: "Póker", cantidad: "330ml", unidad: "1x30", precio: 58000, url: './src/assets/PokerPersonal.jpg', cantidadEnCarrito: 1 },
+  { id: 6, nombre: "SixPack Coronita", cantidad: "210ml", unidad: "1x6", precio: 16000, url: './src/assets/Coronita.jpg', cantidadEnCarrito: 1 },
+  { id: 7, nombre: "Club Colombia Dorada", cantidad: "330ml", unidad: "1x30", precio: 60000, url: './src/assets/ClubPersonal.jpg', cantidadEnCarrito: 1 },
+  { id: 8, nombre: "Postobon Vdrio", cantidad: "1LT", unidad: "1x12", precio: 24000, url: './src/assets/GaseosaPostobonLitro.jpg', cantidadEnCarrito: 1 },
+  { id: 9, nombre: "Postobon Personal Vdrio", cantidad: "350ml", unidad: "1x30", precio: 25000, url: './src/assets/GaseosaPersonal.jpg', cantidadEnCarrito: 1 },
+  { id: 10, nombre: "Coca Cola Vdrio", cantidad: "1LT", unidad: "1x12", precio: 30000, url: './src/assets/CocaColaLitro.jpg', cantidadEnCarrito: 1 },
+  { id: 11, nombre: "Coca Cola Vdrio", cantidad: "350ml", unidad: "1x30", precio: 50000, url: './src/assets/CocaCola250.jpg', cantidadEnCarrito: 1 },
+  { id: 12, nombre: "Speed Max Lta", cantidad: "269ml", unidad: "1x32", precio: 42000, url: './src/assets/speed.jpg', cantidadEnCarrito: 1 },
 ])
 let carrito = ref([])
 
